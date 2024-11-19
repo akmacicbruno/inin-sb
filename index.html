@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="hr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Inin - S2A</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="app">
+			<div class="nav">
+				<div class="nav__item">
+					<img src="Icons/menu_dots.svg" alt="menu" class="nav__item-icon" id="izbornikBtn"></div>
+				<div class="nav__item nav__item--small">
+					<h2 class="nav__item-title">S2A</h2>
+					<p class="nav__item-title-description">spreadsheet to application</p>
+				</div>
+				<div class="nav__item nav__item--full">
+					<p class="nav__item-heading">Administracijska ovjera</p>
+				</div>
+				<div class="nav__item nav__item--link">
+					<a href="#" class="nav__item-user">BA</a>
+				</div>
+			</div>
+
+			<div class="main">
+				<div class="main-menu">
+					<div class="main-menu__button">
+						<img src="Icons/calendar.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/calculator.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/chat.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/money.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/folder.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/checkmark.svg" alt="" class="main-menu__button-icon main-menu__button-icon--active">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/file.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/clipboard.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/dark.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/certificate.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/thunder.svg" alt="" class="main-menu__button-icon">
+					</div>
+					<div class="main-menu__button">
+						<img src="Icons/puzzle.svg" alt="" class="main-menu__button-icon">
+					</div>
+
+				</div>
+				<div class="main-menu main-menu--extend" id="izbornik">
+					<h3>S2A</h3>
+					<div class="main-content__dashboard-menu__search main-content__dashboard-menu__search--extend">
+						<img src="Icons/search.svg" alt="search" class="main-content__dashboard-menu__search-icon">
+						<input type="search" placeholder="Pretraži" name="search" id="dashboard-search" class="main-content__dashboard-menu__search-input main-content__dashboard-menu__search-input--extend">
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/calendar.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Scheduler</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/calculator.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Kalkulacija</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/chat.svg" alt="" class="main-menu__button-left-icon ">
+							<p class="main-menu__button-left-desc">Pregled poruka</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/money.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Financije</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/folder.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Urudžbiranje</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__dropdown">
+							<div class="main-menu__button-left">
+								<img src="Icons/checkmark.svg" alt="" class="main-menu__button-left-icon">
+								<p class="main-menu__button-left-desc">Pregled ovjera</p>
+							</div>
+							<div class="main-menu__button-right">
+								<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon main-menu__button-right-icon--active"></div>
+						</div>
+					</div>
+					<div class="main-menu__dropdown-options">
+						<div class="main-menu__button main-menu__dropdown-options__item">
+							<div class="main-menu__button-left">
+								<img src="Icons/search.svg" alt="" class="main-menu__button-left-icon">
+								<p class="main-menu__button-left-desc">Moje ovjere</p>
+							</div>
+						</div>
+						<div class="main-menu__button main-menu__dropdown-options__item">
+							<div class="main-menu__button-left">
+								<img src="Icons/hamburger-dark.svg" alt="" class="main-menu__button-left-icon">
+								<p class="main-menu__button-left-desc">Administracija ovjera</p>
+							</div>
+						</div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/file.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Upravljanje dokumentima</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/clipboard.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Pregled aktivnosti</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/dark.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">QC Brkić izumi</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/certificate.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">QC Kompenzatori</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/thunder.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">QC TP Strojevi</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+					<div class="main-menu__button">
+						<div class="main-menu__button-left">
+							<img src="Icons/puzzle.svg" alt="" class="main-menu__button-left-icon">
+							<p class="main-menu__button-left-desc">Administration</p>
+						</div>
+						<div class="main-menu__button-right">
+							<img src="Icons/arrow.svg" alt="" class="main-menu__button-icon main-menu__button-right-icon"></div>
+					</div>
+
+				</div>
+				<div class="main-content">
+					<div class="main-content__top">
+						<div class="main-content__top__item">
+							<img src="Icons/hamburger.svg" alt="" class="main-menu__button-icon"></div>
+						<div class="main-content__top__item">
+							<img src="Icons/refresh.svg" alt="" class="main-menu__button-icon">
+							<p class="main-content__top__item-title">Osvježi</p>
+						</div>
+					</div>
+					<div class="main-content__dashboard">
+						<div class="main-content__dashboard-menu">
+							<div class="main-content__dashboard-menu__search">
+								<img src="Icons/search.svg" alt="search" class="main-content__dashboard-menu__search-icon">
+								<input type="search" placeholder="Pretraži" name="search" id="dashboard-search" class="main-content__dashboard-menu__search-input">
+							</div>
+							<div class="main-content__dashboard-menu__title">
+								<div class="main-content__dashboard-menu__title-icon">
+									<img src="Icons/arrow.svg" alt="arrow" class="main-content__dashboard-menu__title-icon__img"></div>
+								<p class="main-content__dashboard-menu__title-text">Pregled ovjera</p>
+							</div>
+							<div class="main-content__dashboard-menu__dropdown">
+								<div class="main-content__dashboard-menu__dropdown__item">
+									<div class="main-content__dashboard-menu__dropdown__item-icon">
+										<img src="Icons/search-green.svg" alt="arrow" class="main-content__dashboard-menu__title-icon__img"></div>
+									<div class="main-content__dashboard-menu__dropdown__item-text">
+										<p>Moje ovjere</p>
+									</div>
+								</div>
+								<div class="main-content__dashboard-menu__dropdown__item main-content__dashboard-menu__dropdown__item--active">
+									<div class="main-content__dashboard-menu__dropdown__item-icon">
+										<img src="Icons/hamburger.svg" alt="arrow" class="main-content__dashboard-menu__title-icon__img"></div>
+									<div class="main-content__dashboard-menu__dropdown__item-text">
+										<p>Administracija ovjera</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="main-content__dashboard-data">
+							<div class="main-content__dashboard-data__top">
+								<buton class="main-content__dashboard-data__top-btn">
+									<img src="Icons/mobile.svg" alt="" class="main-content__dashboard-data__top-btn__img"></buton>
+								<buton class="main-content__dashboard-data__top-btn">
+									<img src="Icons/share.svg" alt="" class="main-content__dashboard-data__top-btn__img"></buton>
+								<div class="main-content__dashboard-data__top-search">
+									<img src="Icons/search.svg" alt="" class="main-content__dashboard-data__top-btn__img">
+									<input type="text" placeholder="Pretraži" class="main-content__dashboard-data__top-search__input">
+								</div>
+								<buton class=" main-content__dashboard-data__top-btn main-content__dashboard-data__top-btn--mobile">
+									<img src="Icons/menu-three-dots.svg" alt="" class="main-content__dashboard-data__top-btn__img"></buton>
+							</div>
+							<div class="main-content__dashboard-data__table">
+								<table id="mojaTablica">
+									<thead>
+										<tr>
+											<th>Dokument</th>
+											<th>Ovjeru pokrenuo</th>
+											<th>Korisnici za ovjeru</th>
+											<th>Datum pokretanja</th>
+											<th>Završena</th>
+											<th>Odobrena</th>
+											<th>Serijska ovjera</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<div class="main-content__dashboard-data__top-search main-content__dashboard-data__top-search--table">
+													<img src="Icons/search.svg" alt="" class="main-content__dashboard-data__top-btn__img table--icon">
+													<input type="text" class="main-content__dashboard-data__top-search__input main-content__dashboard-data__top-search__input--table">
+												</div>
+											</td>
+											<td>
+												<div class="main-content__dashboard-data__top-search main-content__dashboard-data__top-search--table">
+													<img src="Icons/search.svg" alt="" class="main-content__dashboard-data__top-btn__img table--icon">
+													<input type="text" class="main-content__dashboard-data__top-search__input main-content__dashboard-data__top-search__input--table">
+												</div>
+											</td>
+											<td>
+												<div class="main-content__dashboard-data__top-search main-content__dashboard-data__top-search--table">
+													<img src="Icons/search.svg" alt="" class="main-content__dashboard-data__top-btn__img table--icon">
+													<input type="text" class="main-content__dashboard-data__top-search__input main-content__dashboard-data__top-search__input--table">
+												</div>
+											</td>
+											<td>
+												<div class="main-content__dashboard-data__top-search main-content__dashboard-data__top-search--table">
+													<img src="Icons/search.svg" alt="" class="main-content__dashboard-data__top-btn__img table--icon">
+													<input type="text" class="main-content__dashboard-data__top-search__input main-content__dashboard-data__top-search__input--table">
+												</div>
+											</td>
+											<td>(Sve)</td>
+											<td>(Sve)</td>
+											<td>(Sve)</td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div id="cardsContainer"></div>
+
+							<div class="main-content__dashboard-data__bottom">
+								<div class="main-content__dashboard-data__bottom-left">
+									<div class="main-content__dashboard-data__bottom-left__item main-content__dashboard-data__bottom-left__item--grey">
+										<p class="main-content__dashboard-data__bottom-left__item-text">50</p>
+										<img src="Icons/arrow.svg" alt="" class="main-content__dashboard-data__bottom-left__item-img"></div>
+									<div class="main-content__dashboard-data__bottom-left__item">
+										<div class="main-content__dashboard-data__bottom-left__item main-content__dashboard-data__bottom-left__item--closer">
+											<img src="Icons/filter.svg" alt="" class="main-content__dashboard-data__bottom-left__item-img">
+											<p class="main-content__dashboard-data__bottom-left__item-text">Kreiraj filter</p>
+										</div>
+									</div>
+								</div>
+								<div class="main-content__dashboard-data__bottom-right">
+									<div class="main-content__dashboard-data__bottom-right__item">
+										<p>Stranica 1 od 2 (89 stavki)</p>
+									</div>
+									<div class="main-content__dashboard-data__bottom-right__item">
+										<img src="Icons/arrow.svg" alt="" class="main-content__dashboard-data__bottom-right__item-img main-content__dashboard-data__bottom-right__item-img--left">
+										<p class="main-content__dashboard-data__bottom-right__item-text main-content__dashboard-data__bottom-right__item-text--grey main-content__dashboard-data__bottom-right__item-text--opacity">1</p>
+										<p class="main-content__dashboard-data__bottom-right__item-text">od</p>
+										<p class="main-content__dashboard-data__bottom-right__item-text">2</p>
+										<img src="Icons/arrow.svg" alt="" class="main-content__dashboard-data__bottom-right__item-img main-content__dashboard-data__bottom-right__item-img--right main-content__dashboard-data__bottom-right__item-text--opacity"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="functions.js"></script>
+		</div>
+	</body>
+</html>
